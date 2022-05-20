@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <title>Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+
+<div id="identity-section">
+  <div class="identity">
+    <img src="images/image-jeremy.png" alt="">
+    <div class="name">
+      <span>Report for</span>
+      <h2>Jeremy Robson</h2>
+    </div>
+
+  </div>
+  <div class="date">
+    <ul>
+    <li id="dailyDate" onclick="toggleMessage()">Daily</li>
+    <li id="weeklyDate">Weekly</li>
+    <li id="monthlyDate">Monthly</li>
+  </ul>
+  </div>
+</div>
+
+<div class="grid-section">
+  <div class="box work grow">
+    <div class="svg"></div>
+<div class="content">
+  <p id="sayed">Work</p>
+  <span id="workTime">-</span>
+  <h5 id="workPtime">-</h6>
+</div>
+  </div>
+
+    <div class="box play grow">
+      <div class="svg"></div>
+  <div class="content">
+    <p>Play</p>
+  <span id="playTime">-</span>
+  <h5 id="playPtime">-</h6>
+  </div>
+    </div>
+
+<div class="box study grow">
+  <div class="svg"></div>
+  <div class="content">
+    <p>Study</p>
+  <span id="studyTime">-</span>
+  <h5 id="studyPtime">-</h5>
+  </div>
+</div>
+
+  <div class="box exercise">
+    <div class="svg"></div>
+    <div class="content grow">
+      <p>Exercise</p>
+      <span id="exerciseTime">-</span>
+      <h5 id="exercisePtime">-</h5>
+    </div>
+
+  </div>
+
+  <div class="box social">
+    <div class="svg"></div>
+    <div class="content grow">
+      <p>Social</p>
+      <span id="socialTime" id="slide">-</span>
+      <h5 id="socialPtime">-</h5>
+    </div>
+
+
+  </div>
+
+  <div class="box care">
+    <div class="svg"></div>
+    <div class="content grow">
+      <p>Self Care</p>
+      <span id="careTime">-</span>
+      <h5 id="carePtime">-</h5>
+  </div>
+
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+
+    <a href="tel:8665562570">hh </a>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
