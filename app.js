@@ -19,7 +19,7 @@
 // })
 
 async function loadDailyDates() {
-    const response = await fetch('/data.json');
+    const response = await fetch('./data.json');
     const dates = await response.json();
     console.log(dates);
     try {
