@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: auto auto ;
+
+    }
+
+    #identity-section{
+        width: 340px;
+        height: 280px;
+        grid-column: 1;
+        grid-row: 1;
+        margin: auto;
+        margin-top: 50px;
+
+    }
+    .grid-section{
+        width: 340px;
+        height: 100%;
+        grid-column: 1;
+
+        display: grid;
+        grid-template-areas:    'work'
+        'play'
+        'study'
+        'exercise'
+        'social'
+        'care' ;
+        gap: 50px ;
+        grid-row: 2;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .identity {
+        width: 270px;
+        height: 120px;
+        padding: 35px;
+        z-index: 99;
+        margin: auto;
+        }
+        .identity img {
+            width: 80px;
+            display: inline;
+
+        }
+        .name{
+            float: right;
+            margin-top: 15px;
+            line-height: 1;
+        }
+        .name h2{
+            font-size: 24px;
+        }
+        .date{
+            width: 340px;
+            height: 100px;
+            position: relative;
+        }
+        .date ul{
+            width: 340px;
+            height: 100px;
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+        .date li {
+            margin-top: 25px;
+            margin-right: 25px;
+            float: right;
+            width: 70px;
+        }
+        .box{
+            width: 340px;
+            height: 200px;
+        }
+        .content{
+            width: 80%;
+            height: 100px;
+            padding-left: 0%;
+            padding-top: 0%;
+            padding: 10%;
+            margin-top: -10px;
+        }
+        .content p{
+            font-size: 18px ;
+        }
+        .content span{
+        font-size: 31px;
+        }
+        .content h5{
+            float: right;
+            font-size: 16px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 8px;
+        }
+
+}
+
+

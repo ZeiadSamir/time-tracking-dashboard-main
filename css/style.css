@@ -120,7 +120,7 @@ font-size: 41px;
 font-weight: 300;
 }
 .content h5{
-
+    color: hsl(236, 100%, 87%);
 font-weight: 300;
 }
 .work{
@@ -169,54 +169,3 @@ font-weight: 300;
     .grow:hover {
     transform: scale(1.1);
 }
-@media only screen and (max-width: 600px) {
-    .container{
-        width: 100%;
-        display: grid;
-        grid-template-columns: none;
-        grid-template-rows: auto auto ;
-
-    }
-
-    #identity-section{
-        width: 270px;
-        height: 600px;
-        grid-column: 1;
-        grid-row: 1;
-        margin: auto;
-        margin-top: 50px;
-
-    }
-    .grid-section{
-        width: 260px;
-        height: 580px;
-        grid-column: 1;
-
-        display: grid;
-        grid-template-areas:    'work'
-        'play'
-        'study'
-        'exercise'
-        'social'
-        'care' ;
-        gap: 15px ;
-        grid-row: 2;
-        margin: auto;
-        margin-top: 50px;
-    }
-    .identity {
-    width: 200px;
-    height: 320px;
-    border-radius: 15px;
-    background: hsl(246, 80%, 60%);
-    padding: 35px;
-    position: relative;
-    z-index: 99;
-
-    }
-    .box{
-        margin: auto;
-    }
-}
-
-
